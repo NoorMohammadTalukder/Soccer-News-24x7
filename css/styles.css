@@ -17,7 +17,12 @@
   justify-content: center;
   align-items: center;
 }
-
+.alert{
+    margin-top: 110px;
+}
+.alertDiv{
+    margin-bottom: 20px;
+}
  /* Light mode styles */
 .light-mode {
 /* Customize the styles for light mode */
