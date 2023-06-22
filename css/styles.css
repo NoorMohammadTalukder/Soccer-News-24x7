@@ -1,0 +1,81 @@
+/* Set the carousel height to 70% of its original height */
+
+.carousel-inner img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+.main-spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ /* Light mode styles */
+.light-mode {
+/* Customize the styles for light mode */
+}
+.league{
+background-color: #fff;
+box-shadow: 2px 2px 2px 2px #7d7e7998;
+}
+
+/* --Dark mode styles-- */
+.dark-mode {
+/* Customize the styles for dark mode */
+background-color: #333;
+color: #fff;
+}
+.dark-mode .card{
+background-color: #333;
+border: 1px solid #fff;
+}
+.dark-mode .league{
+background-color: #333 !important;
+border: 1px solid #fff;
+}
+.dark-mode .btn-dark, .navbar{
+background-color: #fff !important;
+border: 1px solid #333 !important;
+color: #333 ;
+}
+.dark-mode .nav-dark{
+background: #333 !important;
+border: 1px solid #fff !important;
+}
+.dark-mode .nav-dark li a{
+color: #fff !important;
+
+}
+
+.footer{
+    height: 50px !important;
+}
+/* media query */
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container{
+       
+        overflow-x: hidden;
+    }
+    table {
+        width: 400px;
+        /* Set width to auto for mobile devices */
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+    }
+
+    .x {
+        width: auto;
+        /* Set width to auto for mobile devices */
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+    }
+}
